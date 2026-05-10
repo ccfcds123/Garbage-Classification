@@ -1,0 +1,32 @@
+# 虚拟环境
+venv/
+venv_*/
+env/
+ENV/
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# 数据集（太大，不上传）
+trashnet-master/
+trashnet_cleaned/
+data/
+
+# 训练产出（可选，建议上传模型但不上传大文件）
+# 如果模型文件太大（>100MB），GitHub会警告
+*.pth
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log"*.pth" 
