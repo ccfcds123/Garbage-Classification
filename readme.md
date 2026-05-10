@@ -58,7 +58,7 @@ garbage_classification/
 │
 └── README.md                  # 项目说明
 
-````text
+
 ## 🚀 快速开始
 
 ### 1. 克隆或下载项目
@@ -66,7 +66,7 @@ garbage_classification/
 ```bash
 git clone <your-repo-url>
 cd garbage_classification
-````
+```
 
 ### 2. 创建虚拟环境
 
