@@ -1,6 +1,6 @@
 # ♻️ 智能垃圾分类回收系统
 
-基于深度学习的智能垃圾分类系统，使用 ResNet18 模型对垃圾图片进行分类，并提供投放建议。上海大学计算机工程实践课程项目。
+基于深度学习的智能垃圾分类系统，使用 ResNet18 模型对垃圾图片进行分类，并提供投放建议。
 
 ## 📋 项目简介
 
@@ -58,14 +58,14 @@ garbage_classification/
 │
 └── README.md                  # 项目说明
 
-
+```
 ## 🚀 快速开始
 
 ### 1. 克隆或下载项目
 
 ```bash
-git clone <your-repo-url>
-cd garbage_classification
+git clone https://github.com/ccfcds123/Garbage-Classification.git
+cd Garbage-Classification
 ```
 
 ### 2. 创建虚拟环境
@@ -165,7 +165,7 @@ TRAIN_RATIO = 0.8      # 训练集比例
 | 输出类别 | 6类 |
 | 训练集大小 | ~2133张 |
 | 验证集大小 | ~533张 |
-| 整体准确率 | ~85% (取决于训练效果) |
+| 整体准确率 | ~95% (取决于训练效果) |
 
 ## 🎯 使用示例
 
@@ -232,28 +232,6 @@ app.run(host='0.0.0.0', port=5001, debug=False)
 # 查看CUDA版本后选择对应命令
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
 ```
-
-## 📝 课程作业要求
-
-本项目满足以下要求：
-
-- ✅ 全班分为10组，每组7-9人（组长统筹）
-- ✅ 限时8分钟汇报（6-7分钟演示 + 1-2分钟提问）
-- ✅ 组内明确分工（数据清洗、模型构建、API开发、PPT文档）
-- ✅ 包含《成员贡献矩阵表》
-- ✅ 提交报告PDF、完整源代码、汇报PPT
-
-## 👥 团队分工模板
-
-| 角色 | 职责 | 产出 |
-| --- | --- | --- |
-| 组长 | 项目管理、任务分配 | 组员名单、整体协调 |
-| 数据清洗 | 数据清洗、增强、可视化 | `clean_data.py`, 清洗报告 |
-| 模型训练 | ResNet18搭建、调参 | `train.py`, `best_model.pth` |
-| 后端开发 | Flask API开发 | `app.py` |
-| 前端开发 | 界面设计与实现 | `index.html` |
-| 文档统筹 | 报告撰写、PPT制作 | 报告PDF、PPT |
-| 测试演示 | 测试图片准备、现场演示 | 测试用例、演示素材 |
 
 ## 📄 License
 
